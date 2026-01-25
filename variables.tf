@@ -8,7 +8,7 @@ variable "filename" {
   }
 
   validation {
-    condition     = !contains(var.filename, "..")
+    condition     = !strcontains(var.filename, "..")
     error_message = "filename must not contain '..' (path traversal)."
   }
 }
