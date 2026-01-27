@@ -127,8 +127,8 @@ variable "content"  { type = string }
 ### Supported runtimes
 | Runtime | Supported | Notes |
 |---|---:|---|
-| Terraform | ✅ `>= 1.5.0, < 2.0.0` | Compatible with env0 Terraform 1.5.x |
-| OpenTofu | ✅ `>= 1.5.0, < 2.0.0` | Compatible with env0 Registry tests (OpenTofu 1.11.x) |
+| Terraform |  `>= 1.5.0, < 2.0.0` | Compatible with env0 Terraform 1.5.x |
+| OpenTofu |  `>= 1.5.0, < 2.0.0` | Compatible with env0 Registry tests (OpenTofu 1.11.x) |
 
 ### Dependencies
 | Category | Name | Version | Link |
@@ -139,8 +139,8 @@ variable "content"  { type = string }
 ### Release matrix (sample - keep updated as you tag)
 | Version | Status | Notes | Commit / Tag |
 |---:|---|---|---|
-| `1.0.1` | ✅ Recommended | Supports Terraform 1.5.x + OpenTofu tests | `1.0.1` |
-| `1.0.0` | ✅ Initial | First registry MVP | `1.0.0` |
+| `1.0.1` |  Recommended | Supports Terraform 1.5.x + OpenTofu tests | `1.0.1` |
+| `1.0.0` |  Initial | First registry MVP | `1.0.0` |
 
 ---
 
@@ -169,8 +169,8 @@ variable "content"  { type = string }
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_filename"></a> `filename` | Filename relative to module directory | `string` | n/a | ✅ |
-| <a name="input_content"></a> `content` | File contents | `string` | n/a | ✅ |
+| <a name="input_filename"></a> `filename` | Filename relative to module directory | `string` | n/a | 
+| <a name="input_content"></a> `content` | File contents | `string` | n/a | 
 
 ---
 
