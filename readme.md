@@ -13,8 +13,6 @@
 > **Registry Testing:** Works with env0’s module registry test runner (OpenTofu).  
 > **Safe:** Uses `hashicorp/local` only.
 
----
-
 ## Table of Contents
 - [What this module does](#what-this-module-does)
 - [Quickstart (env0 consumer repo)](#quickstart-env0-consumer-repo)
