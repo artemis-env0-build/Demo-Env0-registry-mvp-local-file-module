@@ -20,6 +20,11 @@ run "plan_smoke" {
     condition     = output.content_sha256 == sha256(var.content)
     error_message = "Output SHA256 did not match sha256(var.content)."
   }
+
+  assert {
+    condition     = output.content_length == length(var.content)
+    error_message = "Output content_length did not match length(var.content)."
+  }
 }
 
 run "validation_negative_filename" {
