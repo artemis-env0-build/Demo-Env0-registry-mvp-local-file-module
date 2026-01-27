@@ -9,16 +9,12 @@ Env0 (EnvZero) Module Registry Demo
 ````
 version = 'v1.0.0'
 ````
----
-
 ````
 Tag = 'mvp/v1.0.0'
 ````
----
 ````
 repo = 'artemis-registry-mvp-local-file'
 ````
----
 
 # Env0 Module Registry MVP
 
