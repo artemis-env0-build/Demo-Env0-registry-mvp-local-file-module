@@ -3,7 +3,7 @@
 </h3>
 
 
-### Env0 (EnvZero) Module Registry Demo
+### EnvZero Module Registry Demo
 
 ````
 apiBaseUri = 'https://api.env0.com'
