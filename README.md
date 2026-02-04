@@ -15,7 +15,7 @@ version = 'v1.0.1'
 Tag = 'mvp/v1.0.1'
 ````
 
-#### env0 Module Registry MVP · Safe, Plan-Only Demo Module
+### EnvZero Module Registry MVP · Safe, Plan-Only Demo Module
 
 <p align="left">
   <img alt="Terraform" src="https://img.shields.io/badge/Terraform-%3E%3D1.5-blueviolet" />
