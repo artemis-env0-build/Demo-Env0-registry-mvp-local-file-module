@@ -6,7 +6,7 @@
 ### Env0 (EnvZero) Module Registry Demo
 
 ````
-version = 'v1.0.1'
+apiBaseUri = 'https://api.env0.com'
 ````
 ````
 version = 'v1.0.1'
@@ -15,7 +15,7 @@ version = 'v1.0.1'
 Tag = 'mvp/v1.0.1'
 ````
 
-#### env0 Module Registry MVP · Safe, Plan-Only Demo Module**
+#### env0 Module Registry MVP · Safe, Plan-Only Demo Module
 
 <p align="left">
   <img alt="Terraform" src="https://img.shields.io/badge/Terraform-%3E%3D1.5-blueviolet" />
