@@ -7,10 +7,10 @@
 Env0 (EnvZero) Module Registry Demo
 
 ````
-version = 'v1.0.0'
+version = 'v1.0.2'
 ````
 ````
-Tag = 'mvp/v1.0.0'
+Tag = 'mvp/v1.0.2'
 ````
 
 **env0 Module Registry MVP · Safe, Plan-Only Demo Module**
