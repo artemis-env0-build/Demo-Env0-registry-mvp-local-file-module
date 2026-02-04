@@ -4,6 +4,7 @@
 
 
 ### EnvZero Module Registry Demo
+----
 
 ````
 apiBaseUri = 'https://api.env0.com'
