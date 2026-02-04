@@ -2,15 +2,14 @@
   <img width="600" height="128" alt="image" src="https://raw.githubusercontent.com/artemis-env0/Packages/refs/heads/main/Images/Logo%20Pack/01%20Main%20Logo/Digital/SVG/envzero_logomark_fullcolor_rgb.svg" />
 </h3>
 
-----
 
 Env0 (EnvZero) Module Registry Demo
 
 ````
-version = 'v1.0.2'
+version = 'v1.0.1'
 ````
 ````
-Tag = 'mvp/v1.0.2'
+Tag = 'mvp/v1.0.1'
 ````
 
 **env0 Module Registry MVP · Safe, Plan-Only Demo Module**
@@ -155,26 +154,26 @@ variable "content"  { type = string }
 | `1.0.1` |  Recommended | Supports Terraform 1.5.x + OpenTofu tests | `1.0.1` |
 | `1.0.0` |  Initial | First registry MVP | `1.0.0` |
 
-## Requirements
+### Requirements
 
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> terraform | `>= 1.5.0, < 2.0.0` |
 | <a name="requirement_local"></a> local | `~> 2.5` |
 
-## Providers
+### Providers
 
 | Name | Version |
 |------|---------|
 | <a name="provider_local"></a> local | `~> 2.5` |
 
-## Resources
+### Resources
 
 | Name | Type |
 |------|------|
 | <a name="resource_local_file"></a> [local_file.this](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) | resource |
 
-## Inputs
+### Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
@@ -182,7 +181,7 @@ variable "content"  { type = string }
 | <a name="input_content"></a> `content` | File contents | `string` | n/a | 
 
 
-## Outputs
+### Outputs
 
 | Name | Description |
 |------|-------------|
@@ -191,7 +190,7 @@ variable "content"  { type = string }
 | <a name="output_content_length"></a> `content_length` | Length of `content` |
 
 
-## Testing
+### Testing
 
 env0 registry testing uses OpenTofu test files under:
 
@@ -204,7 +203,7 @@ tofu test
 
 > For demo safety, tests use `command = plan` so no apply is required.
 
-## Troubleshooting
+### Troubleshooting
 
 ### README not showing in env0 Module Registry
 - Ensure the file is named `README.md` (case-sensitive)
