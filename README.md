@@ -161,19 +161,19 @@ variable "content"  { type = string }
 | <a name="requirement_terraform"></a> terraform | `>= 1.5.0, < 2.0.0` |
 | <a name="requirement_local"></a> local | `~> 2.5` |
 
-## Providers
+### Providers
 
 | Name | Version |
 |------|---------|
 | <a name="provider_local"></a> local | `~> 2.5` |
 
-## Resources
+### Resources
 
 | Name | Type |
 |------|------|
 | <a name="resource_local_file"></a> [local_file.this](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) | resource |
 
-## Inputs
+### Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
@@ -181,7 +181,7 @@ variable "content"  { type = string }
 | <a name="input_content"></a> `content` | File contents | `string` | n/a | 
 
 
-## Outputs
+### Outputs
 
 | Name | Description |
 |------|-------------|
@@ -190,7 +190,7 @@ variable "content"  { type = string }
 | <a name="output_content_length"></a> `content_length` | Length of `content` |
 
 
-## Testing
+### Testing
 
 env0 registry testing uses OpenTofu test files under:
 
@@ -203,7 +203,7 @@ tofu test
 
 > For demo safety, tests use `command = plan` so no apply is required.
 
-## Troubleshooting
+### Troubleshooting
 
 ### README not showing in env0 Module Registry
 - Ensure the file is named `README.md` (case-sensitive)
