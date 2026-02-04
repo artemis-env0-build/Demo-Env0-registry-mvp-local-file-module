@@ -154,7 +154,7 @@ variable "content"  { type = string }
 | `1.0.1` |  Recommended | Supports Terraform 1.5.x + OpenTofu tests | `1.0.1` |
 | `1.0.0` |  Initial | First registry MVP | `1.0.0` |
 
-## Requirements
+### Requirements
 
 | Name | Version |
 |------|---------|
