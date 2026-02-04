@@ -37,7 +37,7 @@ Tag = 'mvp/v1.0.2'
 - [Testing](#testing)
 - [Troubleshooting](#troubleshooting)
 
----
+----
 
 ## What this module does
 This module creates a local file during apply using the Local provider:
@@ -77,7 +77,7 @@ In your env0 Environment:
 
 > Tip: If you’re demoing safely, keep the environment plan-only and avoid auto-apply.
 
----
+
 
 ## How versioning works in env0 registry
 
@@ -102,7 +102,7 @@ git push origin "1.0.1"
 Then confirm in env0:
 - Registry → Modules → artemis-registry-mvp-local-file → Version dropdown
 
----
+
 
 ## Module usage examples
 
@@ -133,7 +133,7 @@ variable "filename" { type = string }
 variable "content"  { type = string }
 ```
 
----
+
 
 ## Version & resources matrix
 
@@ -155,8 +155,6 @@ variable "content"  { type = string }
 | `1.0.1` |  Recommended | Supports Terraform 1.5.x + OpenTofu tests | `1.0.1` |
 | `1.0.0` |  Initial | First registry MVP | `1.0.0` |
 
----
-
 ## Requirements
 
 | Name | Version |
@@ -176,8 +174,6 @@ variable "content"  { type = string }
 |------|------|
 | <a name="resource_local_file"></a> [local_file.this](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) | resource |
 
----
-
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -185,7 +181,6 @@ variable "content"  { type = string }
 | <a name="input_filename"></a> `filename` | Filename relative to module directory | `string` | n/a | 
 | <a name="input_content"></a> `content` | File contents | `string` | n/a | 
 
----
 
 ## Outputs
 
@@ -195,7 +190,6 @@ variable "content"  { type = string }
 | <a name="output_content_sha256"></a> `content_sha256` | SHA256 hash of `content` |
 | <a name="output_content_length"></a> `content_length` | Length of `content` |
 
----
 
 ## Testing
 
@@ -210,8 +204,6 @@ tofu test
 
 > For demo safety, tests use `command = plan` so no apply is required.
 
----
-
 ## Troubleshooting
 
 ### README not showing in env0 Module Registry
@@ -225,8 +217,6 @@ tofu test
 ### “Module has no versions”
 - Confirm you pushed a SemVer tag like `1.0.1`
 - If Tag Prefix is set, ensure the tag matches the prefix format
-
----
 
 ## Links
 - env0 Module Registry: https://app.env0.com/registry/modules  
