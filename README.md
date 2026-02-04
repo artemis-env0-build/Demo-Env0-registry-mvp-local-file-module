@@ -12,7 +12,7 @@ apiBaseUri = 'https://api.env0.com'
 version = 'v1.0.1'
 ````
 ````
-Tag = 'mvp/v1.0.1'
+tag = 'mvp/v1.0.1'
 ````
 
 ### EnvZero Module Registry MVP · Safe, Plan-Only Demo Module
