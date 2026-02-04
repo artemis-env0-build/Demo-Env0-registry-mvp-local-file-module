@@ -52,7 +52,7 @@ This module creates a local file during apply using the Local provider:
 
 ## Quickstart (env0 consumer repo)
 
-### 1) Add this module to your consumer environment repo (Repo B)
+### 1.) Add this module to your consumer environment repo (Repo B)
 Paste this into your consumer `main.tf`:
 
 ```hcl
@@ -69,7 +69,7 @@ module "mvp_local_file" {
 }
 ```
 
-### 2) Run plan-only in env0
+### 2.) Run plan-only in env0
 In your env0 Environment:
 - Ensure Terraform Version is set to a supported version (your org uses 1.5.x).
 - Run Deploy / Plan to confirm:
@@ -86,12 +86,12 @@ In your env0 Environment:
 env0 registry versions come from SemVer Git tags in the module repo:
 
 Valid examples (Tag Prefix blank):
-- `1.0.0`
+- `1.0.1`
 - `1.0.1`
 
 Invalid examples (will not become registry versions):
-- `v1.0.0`
-- `mvp/1.0.0` (unless Tag Prefix is set to `mvp` in module settings)
+- `v1.0.1`
+- `mvp/1.0.1` (unless Tag Prefix is set to `mvp` in module settings)
 
 ### Create & push a new version tag
 From the module repo (Repo A):
@@ -103,7 +103,6 @@ git push origin "1.0.1"
 
 Then confirm in env0:
 - Registry → Modules → artemis-registry-mvp-local-file → Version dropdown
-
 
 
 ## Module usage examples
@@ -155,7 +154,7 @@ variable "content"  { type = string }
 | Version | Status | Notes | Commit / Tag |
 |---:|---|---|---|
 | `1.0.1` |  Recommended | Supports Terraform 1.5.x + OpenTofu tests | `1.0.1` |
-| `1.0.0` |  Initial | First registry MVP | `1.0.0` |
+| `1.0.1` |  Initial | First registry MVP | `1.0.1` |
 
 ### Requirements
 
