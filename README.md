@@ -3,7 +3,7 @@
 </h3>
 
 
-### EnvZero Module Registry Demo
+### EnvZero Module Registry Demo | artem@env0
 ----
 
 ````
